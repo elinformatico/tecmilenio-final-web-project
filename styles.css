@@ -1,3 +1,11 @@
+body {
+  background-image: url('images/product_7.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
 .product-card {
   margin-bottom: 20px;
 }
@@ -8,4 +16,8 @@
 }
 .header {
   margin-bottom: 20px;
+}
+
+.webpage-brand{
+  width: 50%;
 }

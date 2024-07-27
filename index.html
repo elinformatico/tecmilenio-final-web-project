@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Shop</title>
+  <title>Tienda en Linea | Tecnmilenio</title>
   <link href="styles.css" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
   <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        <img src="https://via.placeholder.com/150x50" alt="Brand">
+        <img class="webpage-brand" src="images/tecmilenio-logo.png" alt="Brand">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,7 +20,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Productos</a>
@@ -36,9 +37,9 @@
   </header>
 
   <div class="container">
-    <h1 class="my-4 text-center">Online Shop</h1>
+    <h1 class="my-4 text-center" id="main-header">Tienda en Linea, Tecnmilenio Project</h1>
     <div class="row" id="products-container"></div>
-    <h2 class="my-4">Categories</h2>
+    <h2 class="my-4">Categorias</h2>
     <ul>
       <li>Category 1</li>
       <li>Category 2</li>
@@ -48,13 +49,21 @@
     </ul>
   </div>
 
+  <!--
+    Footer, con iconos para mandar al repositorio de Github y a mi LinkedIn
+  -->
   <footer class="footer">
-    <div class="container">
-      <p>&copy; 2024 Online Shop. All rights reserved.</p>
+    <div class="container text-center">
+      <a class="cc-facebook btn btn-link" href="https://github.com/elinformatico/tecmilenio-final-web-project" target="_blank"><i class="fa fa-github fa-2x " aria-hidden="true"></i></a>
+      <a class="cc-twitter btn btn-link " href="https://www.linkedin.com/in/jnoehdezvivanco" target="_blank"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a>
+      <a class="cc-google-plus btn btn-link" href="https://twitter.com/elinformaticomx" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    </div>
+    <div class="h4 title text-center">José Noé Hernández Vivanco</div>
+    <div class="text-center text-muted">
+      <p> <a href="https://elinformatico.net" target="_blank">elinformatico.net</a> &copy; <span id="current_year"></span>. All rights reserved. </p>
     </div>
   </footer>
 
-  <!-- Modal -->
   <!-- Modal -->
   <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
     <div class="modal-dialog">
