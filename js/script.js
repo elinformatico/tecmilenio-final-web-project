@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
   
     const productsContainer = document.getElementById('products-container');
-  
+    const currentYear = document.getElementById('current_year');
+    currentYear.innerHTML = (new Date().getFullYear());
+
     products.forEach(product => {
       const productCard = document.createElement('div');
       productCard.classList.add('col-lg-4', 'col-md-6', 'col-sm-12', 'product-card');
