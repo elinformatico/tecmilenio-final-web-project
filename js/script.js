@@ -28,6 +28,25 @@ document.addEventListener('DOMContentLoaded', function() {
   
       productsContainer.appendChild(productCard);
     });
+
+    const productCard = document.getElementById('categories-container');
+    const listElement = document.createElement('ul');
+
+    categories.forEach(category => {
+      console.log('Category: ' + category);
+
+      
+      const childElement = document.createElement('li');
+
+      childElement.innerHTML = category;
+
+      listElement.appendChild(childElement);
+      productCard.appendChild(listElement);
+
+    });
+
+    
+
     // Event listener for product thumbnails
     document.querySelectorAll('.product-thumbnail').forEach(thumbnail => {
       thumbnail.addEventListener('click', function() {

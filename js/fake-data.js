@@ -12,3 +12,7 @@ const products = [
     { id: 11, name: 'Mueble para TV mediana', description: 'Mueble para TV mediana donde podras poner una TV de hasta 55 Pulgadas', price: '$2,500.00', image: 'images/product_11.jpg' },
     { id: 12, name: 'Mesa con 6 sillas', description: 'Mesa con 6 Sillas idea para comedores medianos y grandes', price: '$8,500.00', image: 'images/product_12.jpg' },
   ];
+
+  const categories = [
+    'Muebles','Sillones', 'Edredones', 'Almohadas', 'Mesas', 'Sillas', 'Muebles para TV', 'Salas Completas'
+  ];

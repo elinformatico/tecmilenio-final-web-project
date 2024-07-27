@@ -21,3 +21,7 @@ body {
 .webpage-brand{
   width: 50%;
 }
+
+.modal-dialog {
+  max-width: 100%;
+}
